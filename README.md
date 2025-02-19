@@ -18,7 +18,7 @@ This project is a Node.js backend server for managing users using Firebase Realt
 Clone the repository and navigate to the project directory:
 
 ```bash
-1) git clone https://github.com/yourusername/your-repo.git
+1) git clone https://github.com/07asn/Front-Back-NodeJS.git
 2) cd your-repo
 3) npm install express
 4) npm install cors
