@@ -18,12 +18,12 @@ This project is a Node.js backend server for managing users using Firebase Realt
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+1) git clone https://github.com/yourusername/your-repo.git
+2) cd your-repo
 
 
 ```bash
-// Install the required npm packages
-npm install express
-npm install cors
-npm install axios
+ // Install the required npm packages
+3) npm install express
+4) npm install cors
+5) npm install axios
