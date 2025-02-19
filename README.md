@@ -20,10 +20,6 @@ Clone the repository and navigate to the project directory:
 ```bash
 1) git clone https://github.com/yourusername/your-repo.git
 2) cd your-repo
-
-
-```bash
- // Install the required npm packages
 3) npm install express
 4) npm install cors
 5) npm install axios
