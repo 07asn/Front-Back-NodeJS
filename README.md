@@ -6,7 +6,7 @@ Express JS ,
 Firebase
 
 ### Frontend
-Html
+Html ,
 JavaScript
 
 ## Features
