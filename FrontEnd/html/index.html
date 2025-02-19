@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Form</title>
+</head>
+<body>
+    
+<!-------------------------------- Form to Add User -------------------------------->
+            <h1> Create User </h1>
+            <form id="createUserForm">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <input type="submit" value="Add User">
+            </form> 
+            <hr>
+            
+<!-------------------------------- Form to Get User -------------------------------->
+            <h1> Get User </h1>
+            <form id="getUserForm">
+                <label for="userId">User ID:</label><br>
+                <input type="text" id="userId" name="userId" required><br><br>
+                <input type="submit" value="Get User">
+            </form> 
+            <hr>
+
+<!-------------------------------- Form to Update User -------------------------------->
+            <h1> Update User </h1>
+            <form id="updateUserForm">
+                <label for="updateUserId">User ID:</label><br>
+                <input type="text" id="updateUserId" name="updateUserId" required><br>
+                <label for="updateFname">First name:</label><br>
+                <input type="text" id="updateFname" name="updateFname" required><br>
+                <label for="updateLname">Last name:</label><br>
+                <input type="text" id="updateLname" name="updateLname" required><br><br>
+                <input type="submit" value="Update User">
+            </form>
+            <hr>
+            
+<!-------------------------------- Form to Delete User -------------------------------->
+            <h1> Delete User </h1>
+            <form id="deleteUserForm">
+                <label for="userId">Enter Your ID</label><br>
+                <input type="text" id="userId" name="userId" required><br>
+            <input type="submit" value="Add User">
+        </form>
+
+
+        <script src="../js/createUser.js" type="module"></script>
+        <script src="../js/getUser.js"    type="module"></script>
+        <script src="../js/updateUser.js" type="module"></script>
+        <script src="../js/deleteUser.js" type="module"></script>
+</body>
+</html>
