@@ -1,6 +1,13 @@
 # Users API Backend
 
-This project is a Node.js backend server for managing users using Firebase Realtime Database. It leverages [Express](https://expressjs.com/) for server routing, [CORS](https://www.npmjs.com/package/cors) to handle cross-origin requests, and [Axios](https://axios-http.com/) for making HTTP requests to Firebase.
+### Backend:
+Node JS
+Express JS
+Firebase
+
+### Frontend
+Html
+JavaScript
 
 ## Features
 
